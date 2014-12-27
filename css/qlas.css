@@ -1,0 +1,33 @@
+﻿
+body
+{
+    overflow-x:hidden;
+    font-family:'Lato';
+}
+
+.bl-bs-navbarlinksection
+{
+    margin-left:20px;
+}
+
+.bl-bs-item-link
+{
+    font-family:'Lato';
+    cursor:default;
+}
+
+
+h1
+{
+    font-family:'Cardo';
+}
+
+h2
+{
+    font-family:'Cardo';
+}
+
+h3
+{
+    font-family:'Cardo';
+}
