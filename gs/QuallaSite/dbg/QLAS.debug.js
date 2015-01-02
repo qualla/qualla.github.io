@@ -41,10 +41,10 @@ QLAS.SupportPageBody.prototype = {
             ifr.style.maxWidth = '700px';
             ifr.style.overflowX = 'hidden';
             ifr.style.overflowY = 'hidden';
-            ifr.style.height = '200px';
+            ifr.style.height = '440px';
             ifr.style.border = '0px';
             ifr.frameBorder = '0';
-            ifr.src = 'https://qualla.com';
+            ifr.src = 'https://qualla.com/qalaeaeah/embed';
             this.e_iframeHolder.appendChild(ifr);
         }
     },

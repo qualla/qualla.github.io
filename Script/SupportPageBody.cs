@@ -38,11 +38,11 @@ namespace QLAS
                 ifr.Style.MaxWidth = "700px";
                 ifr.Style.OverflowX = "hidden";
                 ifr.Style.OverflowY = "hidden";
-                ifr.Style.Height = "200px";
+                ifr.Style.Height = "440px";
                 ifr.Style.Border = "0px";
                 ifr.FrameBorder = "0";
 
-                ifr.Src = "https://qualla.com";
+                ifr.Src = "https://qualla.com/qalaeaeah/embed";
 
 
                 iframeHolder.AppendChild(ifr);
