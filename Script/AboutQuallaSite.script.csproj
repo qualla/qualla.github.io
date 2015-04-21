@@ -37,7 +37,9 @@
     <None Include="packages.config" />
     <None Include="Properties\FxCop.ruleset" />
     <None Include="Properties\Script.template" />
+    <Compile Include="BlogPage.cs" />
     <Compile Include="SupportPage.cs" />
+    <Compile Include="BlogPageBody.cs" />
     <Compile Include="SupportPageBody.cs" />
     <Compile Include="AboutPageBody.cs" />
     <Compile Include="Footer.cs" />
@@ -69,7 +71,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="BlogPage.htm" />
     <Content Include="SupportPage.htm" />
+    <Content Include="BlogPageBody.htm" />
     <Content Include="SupportPageBody.htm" />
     <Content Include="AboutPageBody.htm" />
     <Content Include="Footer.htm" />

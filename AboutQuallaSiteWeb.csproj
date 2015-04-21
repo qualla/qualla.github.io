@@ -57,6 +57,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="blog\index.html" />
     <Content Include="css\qlas.css" />
     <Content Include="gs\QuallaSite\dbg\QLAS.debug.js" />
     <Content Include="gs\t\QLAS.t.css" />

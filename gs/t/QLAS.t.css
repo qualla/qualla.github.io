@@ -1,7 +1,13 @@
 .qlas-aboutpage{min-height: 100vh;}.qlas-aboutpagebody{min-height:calc(100vh - 400px);}.qlas-aboutpagebody-tagline{margin: 40px;
                 text-align:center;
                 margin-top:80px;
-                margin-bottom:80px;}.qlas-footer-sectionRow{margin-top: 12px;}.qlas-footer-aboutRow{margin-top: 15px;
+                margin-bottom:80px;}.qlas-blogpage{min-height: 100vh;}.qlas-blogpagebody{min-height:calc(100vh - 400px);
+                 font-family:Lato;}.qlas-blogpagebody-tagline{margin: 40px;
+                text-align:center;
+                margin-top:80px;
+                margin-bottom:80px;}.qlas-blogpagebody-supportLink{color:#52bae4;
+                cursor:default;}.qlas-blogpagebody-supportLink:hover{text-decoration:underline;}.qlas-blogpagebody-blogContent{width: 320px;
+                border: solid 0px;}.qlas-footer-sectionRow{margin-top: 12px;}.qlas-footer-aboutRow{margin-top: 15px;
                 margin-bottom: 15px;}.qlas-footer-inlineH1{margin-bottom:6px;}.qlas-footer-linkCell{margin:10px;
                 margin-left:20px;                
                 margin-right:20px;

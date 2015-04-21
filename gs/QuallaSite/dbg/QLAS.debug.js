@@ -6,6 +6,20 @@
 Type.registerNamespace('QLAS');
 
 ////////////////////////////////////////////////////////////////////////////////
+// QLAS.BlogPage
+
+QLAS.BlogPage = function QLAS_BlogPage() {
+    QLAS.BlogPage.initializeBase(this);
+}
+QLAS.BlogPage.prototype = {
+    
+    get_defaultClass: function QLAS_BlogPage$get_defaultClass() {
+        return 'container-fluid';
+    }
+}
+
+
+////////////////////////////////////////////////////////////////////////////////
 // QLAS.SupportPage
 
 QLAS.SupportPage = function QLAS_SupportPage() {
@@ -15,6 +29,38 @@ QLAS.SupportPage.prototype = {
     
     get_defaultClass: function QLAS_SupportPage$get_defaultClass() {
         return 'container-fluid';
+    }
+}
+
+
+////////////////////////////////////////////////////////////////////////////////
+// QLAS.BlogPageBody
+
+QLAS.BlogPageBody = function QLAS_BlogPageBody() {
+    QLAS.BlogPageBody.initializeBase(this);
+}
+QLAS.BlogPageBody.prototype = {
+    e_scriptLink: null,
+    e_iframeHolder: null,
+    
+    get_defaultClass: function QLAS_BlogPageBody$get_defaultClass() {
+        return 'row';
+    },
+    
+    onApplyTemplate: function QLAS_BlogPageBody$onApplyTemplate() {
+        QLAS.BlogPageBody.callBaseMethod(this, 'onApplyTemplate');
+        if (this.e_iframeHolder != null) {
+            var ifr = document.createElement('IFRAME');
+            ifr.style.width = '95vh';
+            ifr.style.maxWidth = '700px';
+            ifr.style.overflowX = 'hidden';
+            ifr.style.overflowY = 'hidden';
+            ifr.style.height = '440px';
+            ifr.style.border = '0px';
+            ifr.frameBorder = '0';
+            ifr.src = 'https://qualla.com/qseafawaa/embed';
+            this.e_iframeHolder.appendChild(ifr);
+        }
     }
 }
 
@@ -125,7 +171,9 @@ QLAS.AboutPage.prototype = {
 }
 
 
+QLAS.BlogPage.registerClass('QLAS.BlogPage', BL.UI.Control);
 QLAS.SupportPage.registerClass('QLAS.SupportPage', BL.UI.Control);
+QLAS.BlogPageBody.registerClass('QLAS.BlogPageBody', BL.UI.Control);
 QLAS.SupportPageBody.registerClass('QLAS.SupportPageBody', BL.UI.Control);
 QLAS.AboutPageBody.registerClass('QLAS.AboutPageBody', BL.UI.Control);
 QLAS.Footer.registerClass('QLAS.Footer', BL.UI.Control);
