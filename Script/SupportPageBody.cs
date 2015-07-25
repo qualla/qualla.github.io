@@ -38,7 +38,7 @@ namespace QLAS
                 ifr.Style.MaxWidth = "700px";
                 ifr.Style.OverflowX = "hidden";
                 ifr.Style.OverflowY = "hidden";
-                ifr.Style.Height = "440px";
+                ifr.Style.Height = "640px";
                 ifr.Style.Border = "0px";
                 ifr.FrameBorder = "0";
 
