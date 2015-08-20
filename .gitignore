@@ -17,6 +17,9 @@ local.properties
 .settings/
 .loadpath
 
+packages/ScriptSharp.0.7.5.1/tools/*
+*.ps1
+
 # External tool builders
 .externalToolBuilders/
 
@@ -57,6 +60,7 @@ build/
 ts/
 out/
 rel/
+.vs/
 gs/QuallaSite/dbg/*
 !gs/QuallaSite/dbg/QLAS.debug.js
 
@@ -64,6 +68,7 @@ gs/QuallaSite/dbg/*
 [Tt]est[Rr]esult*/
 [Bb]uild[Ll]og.*
 
+*.config
 *_i.c
 *_p.c
 *.ilk
@@ -151,6 +156,8 @@ csx
 
 # Windows Store app package directory
 AppPackages/
+Packages/
+packages/
 
 # Others
 sql/
