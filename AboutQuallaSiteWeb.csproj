@@ -59,6 +59,14 @@
   <ItemGroup>
     <Content Include="blog\index.html" />
     <Content Include="css\qlas.css" />
+    <Content Include="qlas\fonts\qla.svg" />
+    <Content Include="qlas\images\crowd.jpg" />
+    <Content Include="qlas\images\emailfeat.png" />
+    <Content Include="qlas\images\sharefeat.png" />
+    <Content Include="qlas\images\templatefeat.png" />
+    <Content Include="tools\index.html" />
+    <Content Include="pricing\index.html" />
+    <Content Include="customers\index.html" />
     <Content Include="gs\QuallaSite\dbg\QLAS.debug.js" />
     <Content Include="gs\t\QLAS.t.css" />
     <Content Include="gs\t\QLAS.t.js" />
@@ -70,15 +78,18 @@
     <Content Include="lib\bootstrap\bootstrap.min.css" />
     <Content Include="lib\bootstrap\bootstrap.min.js" />
     <Content Include="lib\jquery\jquery-1.9.1.min.js" />
+    <Content Include="features\index.html" />
     <Content Include="support\index.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Properties\" />
-    <Folder Include="qlas\images\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="gs\t\QLAS.t.json" />
+    <Content Include="qlas\fonts\qla.eot" />
+    <Content Include="qlas\fonts\qla.ttf" />
+    <Content Include="qlas\fonts\qla.woff" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

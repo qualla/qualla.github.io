@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+    
+        <!-- standard template preview content.  point base href at your facer template sample folder.  -->
+            <base href="../../facer/ts/" />
+            <script src="ts.js"></script><link rel="stylesheet" href="ts.css" />
+        <!-- end sample preview content -->
+
+        <style>
+             body
+             {
+                 min-height:calc(100vh - 142px);
+                 font-family:Lato;
+                 padding-left:20px;
+                 padding-right:20px;
+             }
+
+
+            #customerRow
+            {
+                display:inline-block;
+                padding-top:100px;
+                padding-bottom:100px;
+                cursor:default;
+            }
+
+            #customerIconArea
+            {
+                padding:20px 20px;
+            }
+
+            #customerName
+            {
+                font-size:xx-large;
+                padding:35px 10px;
+                text-transform:uppercase;
+            }
+
+            #customerDesc
+            {
+                font-size:small;
+                text-align:left;
+                padding:20px 10px;
+            }
+
+        </style>
+	</head>
+	<body>
+        <div class="col-md-offset-3 col-md-6">
+             <div class="row" id="parents" data-ctl-class="customerRow">
+                <div class="col-md-1" data-ctl-class="customerIconArea">
+                    <div id="signupsIcon" data-ctl-class="customerIcon">n</div>
+                </div>
+                 <div class="col-md-4" data-ctl-class="customerName">
+                    Parents
+                </div>
+                <div class="col-md-4" data-ctl-class="customerDesc">
+                    <span>Qualla has many starter templates for the different types of activities and events you may need to coordinate..&#160;</span>
+                </div>
+            </div>
+        </div>   
+	</body>
+</html>

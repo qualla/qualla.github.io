@@ -38,8 +38,16 @@
     <None Include="Properties\FxCop.ruleset" />
     <None Include="Properties\Script.template" />
     <Compile Include="BlogPage.cs" />
+    <Compile Include="ToolsPage.cs" />
+    <Compile Include="CustomersPage.cs" />
+    <Compile Include="ToolsPageBody.cs" />
+    <Compile Include="PricingPage.cs" />
+    <Compile Include="FeaturesPage.cs" />
+    <Compile Include="CustomersPageBody.cs" />
+    <Compile Include="PricingPageBody.cs" />
     <Compile Include="SupportPage.cs" />
     <Compile Include="BlogPageBody.cs" />
+    <Compile Include="FeaturesPageBody.cs" />
     <Compile Include="SupportPageBody.cs" />
     <Compile Include="AboutPageBody.cs" />
     <Compile Include="Footer.cs" />
@@ -72,8 +80,16 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="BlogPage.htm" />
+    <Content Include="ToolsPage.htm" />
+    <Content Include="CustomersPage.htm" />
+    <Content Include="ToolsPageBody.htm" />
+    <Content Include="PricingPage.htm" />
+    <Content Include="FeaturesPage.htm" />
+    <Content Include="CustomersPageBody.htm" />
+    <Content Include="PricingPageBody.htm" />
     <Content Include="SupportPage.htm" />
     <Content Include="BlogPageBody.htm" />
+    <Content Include="FeaturesPageBody.htm" />
     <Content Include="SupportPageBody.htm" />
     <Content Include="AboutPageBody.htm" />
     <Content Include="Footer.htm" />

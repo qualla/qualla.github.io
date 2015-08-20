@@ -1,4 +1,15 @@
-﻿
+﻿@font-face{
+    font-family: 'qla';
+    src: url('/qlas/fonts/qla.eot');
+    src: url('/qlas/fonts/qla.eot?#iefix') format('embedded-opentype'),
+          url('/qlas/fonts/qla.woff') format('woff'),
+          url("/qlas/fonts/qla.svg#qla") format("svg"), 
+          url('/qlas/fonts/qla.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 body
 {
     overflow-x:hidden;
@@ -15,8 +26,8 @@ body
 {
     font-family:'Lato';
     cursor:default;
+    padding-right: 40px !important;
 }
-
 
 h1
 {
@@ -28,7 +39,7 @@ h2
     font-family:'Lato';
     text-transform:uppercase;
     font-size:xx-large;
-    color:#52bae4;
+    color:#209cbe;
     line-height:1.3;
 }
 
