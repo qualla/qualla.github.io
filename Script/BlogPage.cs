@@ -18,6 +18,7 @@ namespace QLAS
             get
             {
                 return "container-fluid";
+
             }
         }
     }
